@@ -1,0 +1,46 @@
+default:
+  aliases:
+  cooldown: 5
+  prefix: true
+  response: This is an example response!
+  roles:
+  - pleb
+simple-commands:
+  twitter:
+    cooldown: 5
+    prefix: true
+    response: "Be sure to follow my twitter! https://twitter.com/"
+    roles:
+    - pleb
+  email:
+    cooldown: 3
+    prefix: true
+    response: "My Email: johndoe@students.kennesaw.edu"
+    roles:
+    - pleb
+  amicool:
+    cooldown: 3
+    prefix: true
+    response: "Yes you are so cool!"
+    roles:
+    - vip
+  amimod:
+    cooldown: 3
+    prefix: true
+    response: "Yes you are a mod"
+    roles:
+    - mod
+  bye:
+    cooldown: 3
+    prefix: false
+    response: "Have a good day!"
+    roles:
+    - pleb
+  hello:
+    cooldown: 3
+    prefix: false
+    response: "Hi, how are you?"
+    roles:
+    - pleb
+
+
